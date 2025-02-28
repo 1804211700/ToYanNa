@@ -52,7 +52,9 @@ body::before {
 	margin-bottom:10px
 }
 #words {
-	font-family:"sans-serif";
+	/*font-family:"sans-serif";*/
+	font-family:'华文行楷', 'STXingkai', serif;
+	font-weight: bold; /* 设置字体加粗 */
 	width:550px;
 	font-size:24px;
 	color:#666
