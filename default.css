@@ -14,7 +14,7 @@ body::before {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 120%;
     height: 150%;
     /* 设置背景图片 */
     background-image: url('yx.jpg');
