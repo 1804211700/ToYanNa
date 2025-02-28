@@ -1,0 +1,118 @@
+
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Some Words To You</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="baidu-site-verification" content="AAxaXuMxjf" />
+	<style type="text/css">
+		@font-face {
+			font-family: digit;
+			src: digital-7_mono.ttf format("truetype");
+		}
+	</style>
+	<link type="text/css" rel="stylesheet" href="default.css" >
+    <script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="garden.js" ></script>
+    <script type="text/javascript" src="functions.js" ></script>
+</head>
+
+<body>
+	<div id="mainDiv">
+		<div id="content">
+			<div id="code">
+				<!-- <span class="comments">/**</span><br /> -->
+				<span class="space"/><span class="comments">Dear </span><br />
+				<span class="space"/><span class="comments">&emsp;</span><br />
+				<span class="space"/><span class="comments">百日已至，高考在即</span><br />
+				<span class="space"/><span class="comments">看着你这一路的拼搏旅程</span><br />
+				<span class="space"/><span class="comments">有因不佳成绩的失落，也有因名列前茅的喜悦</span><br />
+				<span class="space"/><span class="comments">有面对成堆作业的烦躁，也有在竭力完成后的释然</span><br />
+				<span class="space"/><span class="comments">仿佛我也回到了曾经拼搏的战场</span><br />
+				<span class="space"/><span class="comments">回首过往</span><br />
+				<span class="space"/><span class="comments">我也曾与你一样面对即将到来的高考，心怀忐忑却又充满期待</span><br />
+				<span class="space"/><span class="comments">也曾为一道试题绞尽脑汁，为一篇作文反复推敲</span><br />
+				<span class="space"/><span class="comments">也曾在无数个夜晚与星辰为伴，挑灯夜读与书本为友</span><br />
+				<span class="space"/><span class="comments">由此</span><br />
+				<span class="space"/><span class="comments">晨曦为伴，终迎曦光！</span><br />
+				<span class="space"/><span class="comments"></span><br />
+				<span class="space"/><span class="comments">如今的你，也站在了同样的起跑线上</span><br />
+				<span class="space"/><span class="comments">最后的百日</span><br />
+				<span class="space"/><span class="comments">是你与时间赛跑的日子，也是你与自己较量的时刻</span><br />
+				<span class="space"/><span class="comments">一路上的风雨兼程，披荆斩棘</span><br />
+				<span class="space"/><span class="comments">无论是晨曦初露时的朗朗书声，还是夜深人静时的焚膏继晷</span><br />
+				<span class="space"/><span class="comments">每一分努力都将成为一声声为金榜题名的响亮喝彩</span><br />
+				<span class="space"/><span class="comments">行百里者半九十</span><br />
+				<span class="space"/><span class="comments">最后的冲刺往往最为艰难，也最为关键</span><br />
+				<span class="space"/><span class="comments">莫向光阴惰寸功</span><br />
+				<span class="space"/><span class="comments">劳其筋骨，空乏其身，方才授予天之大任</span><br />
+				<span class="space"/><span class="comments">决胜之路，莫听穿林打叶声，何妨吟啸且徐行</span><br />
+				<span class="space"/><span class="comments">无论外界如何喧嚣，都要保持一颗平静的心</span><br />
+				<span class="space"/><span class="comments">从容面对这最终挑战</span><br />
+				<span class="space"/><span class="comments">博观而约取，厚积而薄发！</span><br />
+				<span class="space"/><span class="comments"></span><br />
+				<span class="space"/><span class="comments">那片来自最高学府的银杏</span><br />
+				<span class="space"/><span class="comments">代表着我，也代表着清华</span><br />
+				<span class="space"/><span class="comments">它见证了莘莘学子不懈追求勤勉耕耘的精神与颖悟绝伦的智慧</span><br />
+				<span class="space"/><span class="comments">愿这金黄的信使，化作你前行路上的幸运符</span><br />
+				<span class="space"/><span class="comments">化为闪耀你前行道路的光芒~</span><br />
+				<span class="space"/><span class="comments"></span><br />
+				<span class="space"/><span class="comments">愿你，不论道路艰难</span><br />
+				<span class="space"/><span class="comments">仍宠辱不惊，随庭前花开花落</span><br />
+				<span class="space"/><span class="comments">去留无意，任天外云卷云舒</span><br />
+				<span class="space"/><span class="comments">纵有千古，横有八荒</span><br />
+				<span class="space"/><span class="comments">前途似海，来日方长！</span><br />
+			</div>
+			<div id="loveHeart">
+				<canvas id="garden"></canvas>
+				<div id="words">
+					<div id="messages">
+						心向往之，行则必至，一鸣从此始，不坠青云志!
+						<div id="elapseClock"></div>
+					</div>
+					<div id="loveu">
+						(ง •̀_•́)ง Fighting! <br/>
+						<div class="signature">- Lin_CT</div>
+					</div>
+				</div>
+			</div>
+		<!-- </div>
+		<div id="copyright">
+			Copyright @ 2020 LL
+		</div> -->
+	</div>
+	<script type="text/javascript">
+		var offsetX = $("#loveHeart").width() / 2;
+		var offsetY = $("#loveHeart").height() / 2 - 55;
+		var together = new Date();
+		together.setFullYear(2025, 5, 8);
+		together.setHours(0);
+		together.setMinutes(0);
+		together.setSeconds(0);
+		together.setMilliseconds(0);
+		if (!document.createElement('canvas').getContext) {
+			var msg = document.createElement("div");
+			msg.id = "errorMsg";
+			msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+";
+			document.body.appendChild(msg);
+			$("#code").css("display", "none")
+			$("#copyright").css("position", "absolute");
+			$("#copyright").css("bottom", "10px");
+		    document.execCommand("stop");
+		} else {
+			setTimeout(function () {
+				adjustWordsPosition();
+				startHeartAnimation();
+			}, 5000);
+
+			timeElapse(together);
+			setInterval(function () {
+				timeElapse(together);
+			}, 500);
+
+			adjustCodePosition();
+			$("#code").typewriter();
+		}
+	</script>
+</body>
+</html>
