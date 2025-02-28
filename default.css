@@ -78,9 +78,7 @@ body::before {
 	font-style:italic
 }
 #code {
-	/* float:left; */
-	top: 10;
-    	left: 10;
+	float:left; 
 	width:450px;
 	height:400px;
 	color:#333;
