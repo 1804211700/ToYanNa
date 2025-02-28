@@ -53,7 +53,7 @@ function startHeartAnimation() {
         }
         if(e) {
             b.push(h);
-            // garden.createRandomBloom(h[0],h[1])
+            garden.createRandomBloom(h[0],h[1])
         }
         if(d>=30) {
             clearInterval(a);
