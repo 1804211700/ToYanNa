@@ -86,7 +86,7 @@ body::before {
 	/*color:#333;*/
 	color:#333;
 	/*font-family:"Consolas","Monaco","Bitstream Vera Sans Mono","Courier New","sans-serif";*/
-	font-family:'华文行楷', 'STXingkai','KaiTi','SimKai', serif;
+	font-family:"华文行楷", "STXingkai","KaiTi","SimKai", serif;
 	font-weight: bold; /* 设置字体加粗 */
 	font-size:16px
 }
